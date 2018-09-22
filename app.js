@@ -10,9 +10,9 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(a, b) {
     var summed = a + b;
-    var concatSum = 'The sum of ' + a + ' and ' + b + ' is ' + summed + '.';
-    var returnSumArray = [summed, concatSum];
-    return returnSumArray;
+    var concatenated = 'The sum of ' + a + ' and ' + b + ' is ' + summed + '.';
+    var returnArray = [summed, concatenated];
+    return returnArray;
 } //eslint-disable-line
 
 // Here is the test for sum(); uncomment it to run it
